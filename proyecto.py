@@ -60,6 +60,6 @@ archivos = glob.glob('**/*.fits', recursive=True)
 
 for archivo in archivos:
     correccion_curva_de_luz(archivo)   
-                       
+    print(archivo)                       
 
 
